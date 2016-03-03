@@ -1,0 +1,55 @@
+
+section{
+	background-color: #6E6E6E; 
+}
+.menu{
+	font-size: 25px;
+	color:#000000;
+}
+
+.title{
+	font-size: 50px;
+	margin: 1em;
+}
+
+/*para el logo*/
+.size{
+	width: 75%;
+	position: relative;
+	left: 2em;
+}
+
+/*fuente "negrita"*/
+.strong{
+ 	font-weight: bolder;	
+ }
+
+/*color de fuente*/
+ .white{
+ 	color: #FFFFFF;
+ }
+
+/*fondo de la pagina*/
+ .dgrey{
+ 	background-color: #A4A4A4;
+ 	text-align: center;
+ 	display: inline-block;
+ 	padding: 3em;
+ 	border-radius: 20px;
+ 	margin:2em;
+ }
+
+ .space{padding:2em;}
+
+
+ .formulario{
+ 	margin:2em 5em ;
+ }
+
+ @media (min-width:535px) and (max-width: 1024px){
+ 	.formulario{
+ 		margin-left:20em ;
+ 	}
+ }
+
+ 
